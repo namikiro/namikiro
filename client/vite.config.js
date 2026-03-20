@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    host: '0.0.0.0',  // Exposes the server on the local network
-    port: 5173,        // Default port (optional, can change if needed)
+      host: '127.0.0.1',
+      port: 5173,
+      allowedHosts: ['www.namikiro.com']
   },
 });
