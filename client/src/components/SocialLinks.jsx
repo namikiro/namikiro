@@ -10,7 +10,7 @@ const SocialLinks = () => {
         <li className="hover:text-accent cursor-pointer">
           <a
             className="transition-all duration-300"
-            href="https://www.artstation.com/oxiprojekt"
+            href="https://www.artstation.com/namikiro"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ const SocialLinks = () => {
         <li className="hover:text-accent cursor-pointer">
           <a
             className="transition-all duration-300"
-            href="https://www.instagram.com/oxiprojekt"
+            href="https://www.instagram.com/namikiro"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ const SocialLinks = () => {
         <li className="hover:text-accent cursor-pointer">
           <a
             className="transition-all duration-300"
-            href="https://www.github.com/oxiprojekt"
+            href="https://www.github.com/namikiro"
             target="_blank"
             rel="noopener noreferrer"
           >

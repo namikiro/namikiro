@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react'; // Import the ChevronDown icon
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logoR.png';
 import Nav from '../Nav';
 import SocialLinks from '../SocialLinks';
 import NavMobile from '../NavMobile';
@@ -58,7 +58,11 @@ const Header = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex space-x-2 items-center">
-          <span className="text-2xl font-semibold text-rose-500">OXI </span>
+          <img 
+            src={Logo} 
+            alt="logo" 
+            className="h-8 w-auto"
+          />
         </a>
 
         {/* Navigation */}

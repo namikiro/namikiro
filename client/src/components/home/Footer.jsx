@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect, useRef} from 'react';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logoR.png';
 import SocialLinks from '../SocialLinks';
 import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react'; // You can use react-icons for social media icons
 
@@ -60,8 +60,8 @@ const Footer = () => {
             </p>
             <p className="text-[12px] sm:text-sm">
               Email me at{' '}
-              <a href="mailto:info@oxiprojekt.com" className="text-rose-500 hover:underline">
-                info@oxiprojekt.com
+              <a href="mailto:mikkiwaskel@gmail.com" className="text-rose-500 hover:underline">
+                mikkiwaskel@gmail.com
               </a>
             </p>
           </div>
@@ -102,9 +102,13 @@ const Footer = () => {
         <div className="bg-black py-4 pb-2">
           <div className="grid justify-center items-center gap-3">
             <span className='grid justify-center'>
-              <span className="text-2xl font-semibold text-rose-500">OXI </span>
+              <img 
+                          src={Logo} 
+                          alt="logo" 
+                          className="h-8 w-auto"
+                        />
             </span>
-            <p className="text-[12px]">© 2025 OxiProjekt. All rights reserved.</p>
+            <p className="text-[12px]">© 2027 Namikiro. All rights reserved.</p>
           </div>
         </div>
       </div>
